@@ -1,0 +1,21 @@
+# terraform
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+# .tfvars files
+*.tfvars
+
+# terragrunt
+**/.terragrunt-cache/*
+**/.terraform.lock.hcl
+**/backend.tf
+**/provider.tf
+**/config.tf
+**/terragrunt_rendered.json
+
+# IDE
+**/.idea/**
+
+# misc
+*.bak
